@@ -27,7 +27,7 @@ The **Social Tournaments Helper Chrome Extension** is a browser extension design
 ## How to Use
 
 1. **Visit Social Tournaments**
-   - Go to [Social Tournaments Collections](https://www.socialtournaments.com/en/collections/) in your Chrome browser.
+   - Go to [Social Tournaments Collections](https://www.socialtournaments.com/en/collections/) in your Chrome browser. Make sure your language settings are set to english. Otherwise thie extension won't work.
 
 2. **Open the Extension Panel**
    - Click on the extension icon (usually located to the right of the address bar) to open the extension panel.
@@ -53,5 +53,8 @@ If you encounter any issues or would like to contribute to the development of th
 
 3. **If an Avatar Exists Multiple Times, the Plugin Always Converts Only 1 Avatar**
    - If an avatar exists multiple times in the collection, the plugin currently converts only one instance of it. It does not automatically convert all identical avatars in one go.
+  
+4. **The Panel doesn't show up**
+   - The extension currently only takes into account the English version of Social Tournaments. If another language is set, the extension will not work.
 
 Please note that these are known issues, and the extension's functionality is limited by its current implementation. Future updates may address these issues and enhance the extension's performance. Your feedback and contributions to the development of the extension are welcome.
