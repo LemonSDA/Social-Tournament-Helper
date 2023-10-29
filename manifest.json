@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Social Tournaments Panel",
+    "version": "1.0",
+    "description": "Zeigt ein Panel auf der Social Tournaments-Seite an.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": ["*://www.socialtournaments.com/en/collections/"],
+            "js": ["content.js"],
+            "css": ["panel.css"]
+        }
+    ]
+}
