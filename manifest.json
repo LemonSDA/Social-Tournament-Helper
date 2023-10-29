@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Social Tournaments Panel",
-    "version": "1.0",
-    "description": "Zeigt ein Panel auf der Social Tournaments-Seite an.",
+    "name": "Social Tournaments Helper",
+    "version": "0.1",
+    "description": "Shows convertable avatars and converts them for you.",
     "permissions": ["activeTab"],
     "content_scripts": [
         {

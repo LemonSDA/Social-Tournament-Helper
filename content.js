@@ -2,8 +2,8 @@ const panel = document.createElement('div');
 panel.id = 'customPanel';
 panel.innerHTML = `
     <iframe src-chrome-extension="${chrome.runtime.id}/panel.html" frameborder="0" width="300" height="200"></iframe>
-    <div id="avatarCount">Avatare, die umgewandelt werden können: 0</div>
-    <button id="convertAvatars">Avatare umwandeln</button>
+    <div id="avatarCount">Avatars that can be transformed: 0</div>
+    <button id="convertAvatars">Convert avatars</button>
     <button id="stopConversion">Stop</button>
 `;
 document.body.appendChild(panel);
@@ -12,7 +12,7 @@ let continueConversion = true;
 
 function updateAvatarCount() {
     let avatarsToConvert = document.querySelectorAll('.collection-card-action_dust.st-icon.icon-dust');
-    document.getElementById("avatarCount").textContent = `Avatare, die umgewandelt werden können: ${avatarsToConvert.length}`;
+    document.getElementById("avatarCount").textContent = `Avatars that can be transformed: ${avatarsToConvert.length}`;
 }
 
 async function convertAvatar(avatar) {
